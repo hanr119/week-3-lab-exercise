@@ -9,15 +9,15 @@
   }
 
   body {
-    background-color: rgb(255, 246, 204);
+    background-color: #534D56;
   }
 
   h1 {
     font-family: "Infini Regular";
-    color: crimson;
+    color: #534D56;
     transition: 0.3s ease-in;
     padding: 10px;
-    background-color: black;
+    background-color: #DECDF5;
     border-radius: 50px;
     display: flex;
     margin: auto;
@@ -26,28 +26,28 @@
   }
   h1:hover {
     font-size: 100px;
-    color: black;
-    background-color: rgb(106, 106, 230)
+    color: #80A1C1;
+    background-color: #534D56
   }
 
   h2 {
     font-family: "Infini Bold";
-    color: black;
+    color: #80A1C1;
     letter-spacing: 5px;
   }
 
   .paragraph {
     font-family: "Infini Regular";
     font-size: 2rem;
-    color: rgb(106, 106, 230);
+    color: #F8F1FF;
   }
   .paragraph:active {
     transform: rotate(2deg);
   }
-  .red {
-    color: crimson;
-    border-bottom: 2px dotted red;
-    border-top: 2px dotted red;
+  .green {
+    color: #80A1C1;
+    border-bottom: 2px dotted #80A1C1;
+    border-top: 2px dotted #80A1C1;
     font-size: 4rem;
   }
 
@@ -56,9 +56,9 @@
   }
 
   .changecolor {
-    color: black;
+    color: #80A1C1;
   }
 
   .changecolor:hover {
-    color: rgb(255, 0, 255);
+    color: #656176;
   }
