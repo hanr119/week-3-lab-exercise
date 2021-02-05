@@ -1,8 +1,64 @@
 @font-face {
-    font-family: "Infini";
+    font-family: "Infini Regular";
     src: url("./assets/infini-regular.woff") format("woff")
   }
 
+  @font-face {
+    font-family: "Infini Bold";
+    src: url("./assets/infini-bold.woff") format("woff")
+  }
+
+  body {
+    background-color: rgb(255, 246, 204);
+  }
+
   h1 {
-      font-family: "Infini";
+    font-family: "Infini Regular";
+    color: crimson;
+    transition: 0.3s ease-in;
+    padding: 10px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  h1:hover {
+    font-size: 100px;
+    color: black;
+    background-color: rgb(106, 106, 230)
+  }
+
+  h2 {
+    font-family: "Infini Bold";
+    color: black;
+    letter-spacing: 5px;
+  }
+
+  .paragraph {
+    font-family: "Infini Regular";
+    font-size: 2rem;
+    color: rgb(106, 106, 230);
+  }
+  .paragraph:active {
+    transform: rotate(2deg);
+  }
+  .red {
+    color: crimson;
+    border-bottom: 2px dotted red;
+    border-top: 2px dotted red;
+    font-size: 4rem;
+  }
+
+  .invisible:hover {
+    opacity: 0;
+  }
+
+  .changecolor {
+    color: black;
+  }
+
+  .changecolor:hover {
+    color: rgb(255, 0, 255);
   }
