@@ -44,7 +44,7 @@
   .paragraph:active {
     transform: rotate(2deg);
   }
-  .green {
+  .blue {
     color: #80A1C1;
     border-bottom: 2px dotted #80A1C1;
     border-top: 2px dotted #80A1C1;
