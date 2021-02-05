@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Infini";
+    src: url("./assets/infini-regular.woff") format("woff")
+  }
+
+  h1 {
+      font-family: "Infini";
+  }
